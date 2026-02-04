@@ -1,0 +1,23 @@
+{
+  "name": "luftborn_automationframework",
+  "version": "1.0.0",
+  "description": "Automation Framework for LuftBorn",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedgaberiti/LuftBorn_AutomationFramework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ahmedgaberiti/LuftBorn_AutomationFramework/issues"
+  },
+  "homepage": "https://github.com/ahmedgaberiti/LuftBorn_AutomationFramework#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.1",
+    "@types/node": "^25.2.0"
+  }
+}
