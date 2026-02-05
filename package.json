@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Automation Framework for LuftBorn",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "allure:generate": "allure generate ./allure-results --clean -o ./allure-report",
+    "allure:open": "allure open ./allure-report"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ahmedgaberiti/LuftBorn_AutomationFramework.git"
@@ -18,6 +22,8 @@
   "homepage": "https://github.com/ahmedgaberiti/LuftBorn_AutomationFramework#readme",
   "devDependencies": {
     "@playwright/test": "^1.58.1",
-    "@types/node": "^25.2.0"
+    "@types/node": "^25.2.0",
+    "allure-commandline": "^2.36.0",
+    "allure-playwright": "^3.4.5"
   }
 }
